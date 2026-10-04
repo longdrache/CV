@@ -528,6 +528,13 @@ body {
 .contact-item i {
   font-size: 1.5rem;
   color: var(--accent);
+  flex-shrink: 0;
+}
+
+.contact-item span {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  min-width: 0;
 }
 
 footer {
